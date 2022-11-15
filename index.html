@@ -4,7 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <h1>Hello There!</h1>
@@ -56,6 +58,21 @@
     * will ignore any files that have that ending
 
     Never commit a log file
+    :q! to escape vim
+
+git log --oneline
+gives us the hashes of each commit. Useful
 
 
+CICD is a process where your code gets uploaded from git to your server
+ticketing system:
+ticket comes in. Has an ID and a change to be made, or some feature to be added.
+we make the change, but want it to be reviewed.
+To do so, we take our master branch, and make a new branch off of it. We add a new commit to this branch, and the name of the branch is the ticket.
+
+
+
+git branch will list your branches
+git checkout -b branchname will create a new branch, and you will switch to it
+If you just want to switch, just git branch branchname
 -->
